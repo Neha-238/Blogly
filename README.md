@@ -1,0 +1,57 @@
+# Blogly 📝
+
+**Blogly** is a full-stack blogging application where users can create, manage, and interact with blogs.  
+It features secure authentication with JWT, a user dashboard for managing blogs, and a public homepage where anyone can explore and comment on blogs.
+
+---
+
+## 🚀 Features
+
+### 🔐 Authentication
+- **JWT-based login & signup**
+- Secure access to dashboard features
+
+### 📊 Dashboard (Authenticated Users Only)
+The dashboard contains 4 main sections:
+
+1. **Dashboard Overview**  
+   - View all **published blogs** posted by the logged-in user.
+
+2. **Add Blogs**  
+   - Create and publish a new blog post.
+
+3. **Blog Lists**  
+   - View **all published and unpublished blogs** created by the user.  
+   - Manage publication status.
+
+4. **Comments Management**  
+   - Two sections: **Approved** and **Not Approved**  
+   - New comments appear in **Not Approved** by default.  
+   - User can **approve** or **delete** comments.
+
+### 🏠 Homepage (No Login Required)
+- Displays blogs posted by many different users
+- **Search bar** to filter blogs by title/content
+- Click a blog to view details and comments
+- Add comments without logging in (comments go to "Not Approved" until approved by the author)
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- **React.js** (UI rendering)
+- **React Router** (Navigation)
+- **Axios** (API requests)
+-  **Tailwind** (styling)
+
+### Backend
+- **Node.js** with **Express.js**
+- **MongoDB** with Mongoose (Database)
+- **JWT** for authentication
+
+
+---
+
+
+
