@@ -129,7 +129,7 @@ The dashboard contains 4 main sections:
 
 # Step 1: Clone the repository
 
-git clone https://github.com/username/blogly.git
+git clone https://github.com/Neha-238/Blogly.git
 cd blogly
 
 # Step 2: Install backend dependencies
