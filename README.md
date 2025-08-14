@@ -119,41 +119,37 @@ The dashboard contains 4 main sections:
 
 ## 💻 Installation
 
-Clone the repo:
+# Step 1: Clone the repository
 
 ```bash
 git clone https://github.com/username/blogly.git
 cd blogly
 
-nstall Backend Dependencies
-
-Navigate to the server folder and install dependencies:
+# Step 2: Install backend dependencies
 
 cd server
 npm install
 
-Install Frontend Dependencies
-
-Navigate to the frontend folder and install dependencies:
+# Step 3: Install frontend dependencies
 
 cd ../frontend
 npm install
 
-Configure Environment Variables
-
-Create a .env file inside the backend folder (server/.env) and add:
+***Environment Setup***
+Create a .env file inside the backend/ directory and add the following:
 
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
 
-Start the Backend Server
-cd ../server
+***Run the App***
+In two terminals:
+
+# Terminal 1: Start backend
+cd server
 npm start
 
-Start the Frontend
+# Terminal 2: Start frontend
+cd frontend
+npm run dev
 
-Open a new terminal, go to the frontend folder, and start the React app:
-
-cd ../frontend
-npm start
