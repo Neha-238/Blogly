@@ -50,9 +50,9 @@ The dashboard contains 4 main sections:
 - **MongoDB** with Mongoose (Database)
 - **JWT** for authentication
 
-📦 Models
+📦 ### Models 
 
-Below are the MongoDB/Mongoose schemas used in Blogly.
+Below are the  Mongoose schemas used in Blogly.
 
 Admin
 
