@@ -119,9 +119,11 @@ The dashboard contains 4 main sections:
 
 ## 💻 Installation
 
-# Step 1: Clone the repository
 
 ```bash
+
+# Step 1: Clone the repository
+
 git clone https://github.com/username/blogly.git
 cd blogly
 
