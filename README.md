@@ -114,6 +114,42 @@ Blog Routes
 | **POST** | `/api/blog/comments`       | Get all comments for a blog         | ❌             | `blogId`                                                               |
 
 
+💻 Installation
+
+Clone the repo:
+
+git clone https://github.com/username/blogly.git
+cd blogly
+
+Install Backend Dependencies
+
+Navigate to the server folder  and install the dependencies:
+cd server
+npm install
+
+Navigate to the frontend folder (where your React app lives) and install the dependencies:
+cd ../frontend
+npm install
+
+Configure Environment Variables
+Create a .env file inside the backend folder and add the following:
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
+
+Start the Backend Server
+
+Navigate back to the server folder (if not already there) and start the server:
+npm start
+
+Start the Frontend
+
+Open a new terminal, go to the frontend folder, and start the React app:
+npm start
+
+
+
+
 ---
 
 
