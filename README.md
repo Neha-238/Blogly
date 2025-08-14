@@ -3,6 +3,11 @@
 **Blogly** is a full-stack blogging application where users can create, manage, and interact with blogs.  
 It features secure authentication with JWT, a user dashboard for managing blogs, and a public homepage where anyone can explore and comment on blogs.
 
+## Screenshots
+
+You can view all the project screenshots here: [Screenshots Folder](screenshots/)
+
+
 ---
 
 ## 🚀 Features
@@ -15,7 +20,7 @@ It features secure authentication with JWT, a user dashboard for managing blogs,
 The dashboard contains 4 main sections:
 
 1. **Dashboard Overview**  
-   - View all **published blogs** posted by the logged-in user.
+   - View the **recent 5 blogs**, along with the **total number of blogs, drafts, and comments** for the logged-in user.
 
 2. **Add Blogs**  
    - Create and publish a new blog post.
